@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Will Field-Thompson</string>
+	<key>Builder Version</key>
+	<string>10600.4.10.7</string>
+	<key>CFBundleDisplayName</key>
+	<string>Footnotes</string>
+	<key>CFBundleIdentifier</key>
+	<string>io.willft.footnotes</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>sup.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Links footnotes to their associated superscripts.</string>
+	<key>DeveloperIdentifier</key>
+	<string>9CQJZX7T77</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://willft.io</string>
+</dict>
+</plist>
