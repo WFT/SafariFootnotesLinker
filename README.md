@@ -4,4 +4,4 @@ A Safari extension which links <sup></sup> tags. Attempts to link superscripts t
 
 ## Download
 
-There is a prebuilt `.safariextz` in the `build/` directory.
+Check out the [releases tab](https://github.com/WFT/SafariFootnotesLinker/releases) for a download.
