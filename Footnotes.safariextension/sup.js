@@ -12,10 +12,14 @@ function FOOTNOTE_PROCESS() {
 	}
 	return ret;
     };
+
+    var gen_id = function(item, name) {
+	return "__footnote__" + item.textContent + name;
+    }
     
     var link_item = function(item, name, href) {
-	item.innerHTML = '<a id="' + item.textContent + name +
-	    '" href="#' + item.textContent + href + '">' +
+	item.innerHTML = '<a id="' + gen_id(item, name) +
+	    '" href="#' + gen_id(item, href) + '">' +
 	    item.innerHTML + '</a>';
     };
 
