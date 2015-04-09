@@ -14,7 +14,7 @@ function FOOTNOTE_PROCESS() {
     };
     
     var link_item = function(item, name, href) {
-	item.innerHTML = '<a name="' + item.textContent + name +
+	item.innerHTML = '<a id="' + item.textContent + name +
 	    '" href="#' + item.textContent + href + '">' +
 	    item.innerHTML + '</a>';
     };
